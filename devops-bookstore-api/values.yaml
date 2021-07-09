@@ -9,7 +9,7 @@ image:
   repository: devopsupskillregistryyvqem.azurecr.io/devops-bookstore-api
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.1"
+  tag: ""
   containerPort: 5000
   livenessProbe: /books
   readinessProbe: /books
